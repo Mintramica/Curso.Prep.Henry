@@ -10,7 +10,7 @@ const nuevoNum = '25';
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 = 5;
+const nuevaResta = 10 - 5 == 5;
 
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40 ;
@@ -63,11 +63,10 @@ function sonIguales(x, y) {
   if (x === y);{
     retu
  true;
-  } else {
+  else
   return false;
 }  }
 
-}
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -83,8 +82,8 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90); {
     return true;
-  } else {
-    return false:
+    else {
+    return false;
   }
   }
 
@@ -94,8 +93,8 @@ function mayorQueCincuenta(num) {
   // Tu código:
   if (num > 50); {
     return true;
-  } else {
-    return false:
+   else {
+    return false;
 }
 
 function obtenerResto(x, y) {
@@ -110,8 +109,9 @@ function esPar(num) {
   // Tu código:
   if (num / 2 === 0); {
     return true;
-  } else {
-    return false:
+     {  
+    else {
+    return false;
 }
 
 function esImpar(num) {
@@ -121,7 +121,7 @@ function esImpar(num) {
   if (num / 2 === 1); {
     return true;
   } else {
-    return false:
+    return false;
 }
 
 function elevarAlCuadrado(num) {
@@ -169,7 +169,7 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero === 0); {
   return false 
-} else (numero > 0) {
+} else (numero > 0) 
   return 'Es positivo';
 } else if (numero < 0);
 { return 'Es negativo'} 
@@ -189,7 +189,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinado = nombre 'Micaela' + apeliido 'Roldan';
+  var combinado = nombre 'micaela ' + apeliido 'roldan';
   return combinado
 }
 
@@ -238,7 +238,7 @@ function esVocal(letra){
   //Escribe tu código aquí
 }if (letra.length > 1);{
   return 'Dato incorrecto';
-  }  else (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){;
+else (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"); {
   return 'Es vocal'
     }  return "Dato incorrecto"
 }
